@@ -13,3 +13,8 @@ paper-fab#google-plus
 ...
 <paper-fab icon="fa:google-plus" title="Google+" id="google-plus"></paper-fab>
 ```
+
+## Requirements
+- Polymer 1.0
+  - iron-iconset-svg
+  - iron-icon
