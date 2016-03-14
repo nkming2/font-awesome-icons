@@ -1,9 +1,9 @@
-# fontawesome-icons
-Polymer iconset for Font Awesome, based on https://github.com/bwu-dart/bwu_fontawesome_iconset_svg
+# font-awesome-icons
+Polymer iconset of Font Awesome, based on https://github.com/bwu-dart/bwu_fontawesome_iconset_svg
 
 ## How to use
 ```
-<link rel="import" href="components/fontawesome-icons/fontawesome-icons.html">
+<link rel="import" href="components/font-awesome-icons/font-awesome-icons.html">
 ...
 paper-fab#google-plus
 {
