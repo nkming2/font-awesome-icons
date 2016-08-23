@@ -14,6 +14,9 @@ paper-fab#google-plus
 <paper-fab icon="fa:google-plus" title="Google+" id="google-plus"></paper-fab>
 ```
 
+## Demo
+https://nkming2.github.io/font-awesome-icons-demo
+
 ## Requirements
 - Polymer 1.0
   - iron-iconset-svg
