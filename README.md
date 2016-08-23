@@ -1,5 +1,5 @@
 # font-awesome-icons
-Polymer iconset of Font Awesome, based on https://github.com/bwu-dart/bwu_fontawesome_iconset_svg
+Polymer iconset of Font Awesome, used works from https://github.com/bwu-dart/bwu_fontawesome_iconset_svg
 
 ## How to use
 ```
