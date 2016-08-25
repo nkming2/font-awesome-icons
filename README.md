@@ -1,17 +1,11 @@
 # font-awesome-icons
-Polymer iconset of Font Awesome(=4.6), used works from https://github.com/bwu-dart/bwu_fontawesome_iconset_svg
+Polymer iconset of [Font Awesome](https://github.com/FortAwesome/Font-Awesome)(=4.6), used works from https://github.com/bwu-dart/bwu_fontawesome_iconset_svg
 
 ## How to use
 ```
-<link rel="import" href="components/font-awesome-icons/font-awesome-icons.html">
+<link rel="import" href="<COMPONENTS_DIR>/font-awesome-icons/font-awesome-icons.html">
 ...
-paper-fab#google-plus
-{
-	--paper-fab-background: var(--paper-red-500);
-	color: white;
-}
-...
-<paper-fab icon="fa:google-plus" title="Google+" id="google-plus"></paper-fab>
+<paper-fab icon="fa:github-alt" title="GitHub"></paper-fab>
 ```
 
 ## Demo
