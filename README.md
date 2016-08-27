@@ -1,6 +1,7 @@
 # openfont-icons
 Polymer iconsets of various open icon fonts, including,
 - [Font Awesome](https://github.com/FortAwesome/Font-Awesome)(=4.6)
+- [Foundation](https://github.com/zurb/foundation-icons)(=3.0)
 
 ## How to use
 ```
@@ -11,6 +12,7 @@ Polymer iconsets of various open icon fonts, including,
 
 ## Demo
 - [Font Awesome](https://nkming2.github.io/openfont-icons/demo/fa.html)
+- [Foundation](https://nkming2.github.io/openfont-icons/demo/fi.html)
 
 ## Requirements
 - Polymer 1.0

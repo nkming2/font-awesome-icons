@@ -1,0 +1,314 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../iron-icon/iron-icon.html">
+<link rel="import" href="../iron-iconset-svg/iron-iconset-svg.html">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css">
+<style>
+	text.fi {
+		font-size: 20px;
+		text-anchor: middle;
+		font-family: "foundation-icons";
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		line-height: 20px;
+		-webkit-font-smoothing: antialiased;
+		display: inline-block;
+		text-decoration: inherit;
+	}
+
+	paper-fab[icon^="fi:"] svg {
+		/* Prevent clipping on some huge icons */
+		overflow: visible;
+	}
+</style>
+
+<iron-iconset-svg name="fi" size="24">
+	<svg>
+		<defs>
+			<g id="heart"><text class="fi" x="12" y="12" dy=".35em">&#xf159;</text></g>
+			<g id="star"><text class="fi" x="12" y="12" dy=".35em">&#xf1ee;</text></g>
+			<g id="plus"><text class="fi" x="12" y="12" dy=".35em">&#xf199;</text></g>
+			<g id="minus"><text class="fi" x="12" y="12" dy=".35em">&#xf176;</text></g>
+			<g id="x"><text class="fi" x="12" y="12" dy=".35em">&#xf217;</text></g>
+			<g id="check"><text class="fi" x="12" y="12" dy=".35em">&#xf126;</text></g>
+			<g id="upload"><text class="fi" x="12" y="12" dy=".35em">&#xf20c;</text></g>
+			<g id="download"><text class="fi" x="12" y="12" dy=".35em">&#xf143;</text></g>
+			<g id="widget"><text class="fi" x="12" y="12" dy=".35em">&#xf214;</text></g>
+			<g id="marker"><text class="fi" x="12" y="12" dy=".35em">&#xf172;</text></g>
+			<g id="refresh"><text class="fi" x="12" y="12" dy=".35em">&#xf1a5;</text></g>
+			<g id="home"><text class="fi" x="12" y="12" dy=".35em">&#xf15a;</text></g>
+			<g id="trash"><text class="fi" x="12" y="12" dy=".35em">&#xf204;</text></g>
+			<g id="paperclip"><text class="fi" x="12" y="12" dy=".35em">&#xf190;</text></g>
+			<g id="lock"><text class="fi" x="12" y="12" dy=".35em">&#xf16a;</text></g>
+			<g id="unlock"><text class="fi" x="12" y="12" dy=".35em">&#xf20a;</text></g>
+			<g id="calendar"><text class="fi" x="12" y="12" dy=".35em">&#xf124;</text></g>
+			<g id="cloud"><text class="fi" x="12" y="12" dy=".35em">&#xf12d;</text></g>
+			<g id="magnifying-glass"><text class="fi" x="12" y="12" dy=".35em">&#xf16c;</text></g>
+			<g id="zoom-out"><text class="fi" x="12" y="12" dy=".35em">&#xf21a;</text></g>
+			<g id="zoom-in"><text class="fi" x="12" y="12" dy=".35em">&#xf219;</text></g>
+			<g id="wrench"><text class="fi" x="12" y="12" dy=".35em">&#xf215;</text></g>
+			<g id="rss"><text class="fi" x="12" y="12" dy=".35em">&#xf1aa;</text></g>
+			<g id="share"><text class="fi" x="12" y="12" dy=".35em">&#xf1ad;</text></g>
+			<g id="flag"><text class="fi" x="12" y="12" dy=".35em">&#xf14d;</text></g>
+			<g id="list-thumbnails"><text class="fi" x="12" y="12" dy=".35em">&#xf168;</text></g>
+			<g id="list"><text class="fi" x="12" y="12" dy=".35em">&#xf169;</text></g>
+			<g id="thumbnails"><text class="fi" x="12" y="12" dy=".35em">&#xf1fa;</text></g>
+			<g id="annotate"><text class="fi" x="12" y="12" dy=".35em">&#xf107;</text></g>
+			<g id="folder"><text class="fi" x="12" y="12" dy=".35em">&#xf150;</text></g>
+			<g id="folder-lock"><text class="fi" x="12" y="12" dy=".35em">&#xf14f;</text></g>
+			<g id="folder-add"><text class="fi" x="12" y="12" dy=".35em">&#xf14e;</text></g>
+			<g id="clock"><text class="fi" x="12" y="12" dy=".35em">&#xf12b;</text></g>
+			<g id="play-video"><text class="fi" x="12" y="12" dy=".35em">&#xf197;</text></g>
+			<g id="crop"><text class="fi" x="12" y="12" dy=".35em">&#xf136;</text></g>
+			<g id="archive"><text class="fi" x="12" y="12" dy=".35em">&#xf108;</text></g>
+			<g id="pencil"><text class="fi" x="12" y="12" dy=".35em">&#xf194;</text></g>
+			<g id="graph-trend"><text class="fi" x="12" y="12" dy=".35em">&#xf156;</text></g>
+			<g id="graph-bar"><text class="fi" x="12" y="12" dy=".35em">&#xf153;</text></g>
+			<g id="graph-horizontal"><text class="fi" x="12" y="12" dy=".35em">&#xf154;</text></g>
+			<g id="graph-pie"><text class="fi" x="12" y="12" dy=".35em">&#xf155;</text></g>
+			<g id="checkbox"><text class="fi" x="12" y="12" dy=".35em">&#xf127;</text></g>
+			<g id="minus-circle"><text class="fi" x="12" y="12" dy=".35em">&#xf175;</text></g>
+			<g id="x-circle"><text class="fi" x="12" y="12" dy=".35em">&#xf216;</text></g>
+			<g id="eye"><text class="fi" x="12" y="12" dy=".35em">&#xf147;</text></g>
+			<g id="database"><text class="fi" x="12" y="12" dy=".35em">&#xf139;</text></g>
+			<g id="results"><text class="fi" x="12" y="12" dy=".35em">&#xf1a7;</text></g>
+			<g id="results-demographics"><text class="fi" x="12" y="12" dy=".35em">&#xf1a6;</text></g>
+			<g id="like"><text class="fi" x="12" y="12" dy=".35em">&#xf164;</text></g>
+			<g id="dislike"><text class="fi" x="12" y="12" dy=".35em">&#xf140;</text></g>
+			<g id="upload-cloud"><text class="fi" x="12" y="12" dy=".35em">&#xf20b;</text></g>
+			<g id="camera"><text class="fi" x="12" y="12" dy=".35em">&#xf125;</text></g>
+			<g id="alert"><text class="fi" x="12" y="12" dy=".35em">&#xf101;</text></g>
+			<g id="bookmark"><text class="fi" x="12" y="12" dy=".35em">&#xf11f;</text></g>
+			<g id="contrast"><text class="fi" x="12" y="12" dy=".35em">&#xf134;</text></g>
+			<g id="mail"><text class="fi" x="12" y="12" dy=".35em">&#xf16d;</text></g>
+			<g id="video"><text class="fi" x="12" y="12" dy=".35em">&#xf20e;</text></g>
+			<g id="phone"><text class="fi" x="12" y="12" dy=".35em">&#xf1f8;</text></g>
+			<g id="comment"><text class="fi" x="12" y="12" dy=".35em">&#xf131;</text></g>
+			<g id="comment-video"><text class="fi" x="12" y="12" dy=".35em">&#xf130;</text></g>
+			<g id="comment-quotes"><text class="fi" x="12" y="12" dy=".35em">&#xf12f;</text></g>
+			<g id="comment-minus"><text class="fi" x="12" y="12" dy=".35em">&#xf12e;</text></g>
+			<g id="comments"><text class="fi" x="12" y="12" dy=".35em">&#xf132;</text></g>
+			<g id="microphone"><text class="fi" x="12" y="12" dy=".35em">&#xf174;</text></g>
+			<g id="megaphone"><text class="fi" x="12" y="12" dy=".35em">&#xf173;</text></g>
+			<g id="sound"><text class="fi" x="12" y="12" dy=".35em">&#xf1ed;</text></g>
+			<g id="address-book"><text class="fi" x="12" y="12" dy=".35em">&#xf100;</text></g>
+			<g id="bluetooth"><text class="fi" x="12" y="12" dy=".35em">&#xf11b;</text></g>
+			<g id="html5"><text class="fi" x="12" y="12" dy=".35em">&#xf15b;</text></g>
+			<g id="css3"><text class="fi" x="12" y="12" dy=".35em">&#xf138;</text></g>
+			<g id="layout"><text class="fi" x="12" y="12" dy=".35em">&#xf162;</text></g>
+			<g id="web"><text class="fi" x="12" y="12" dy=".35em">&#xf212;</text></g>
+			<g id="foundation"><text class="fi" x="12" y="12" dy=".35em">&#xf152;</text></g>
+			<g id="page"><text class="fi" x="12" y="12" dy=".35em">&#xf18e;</text></g>
+			<g id="page-csv"><text class="fi" x="12" y="12" dy=".35em">&#xf181;</text></g>
+			<g id="page-doc"><text class="fi" x="12" y="12" dy=".35em">&#xf185;</text></g>
+			<g id="page-pdf"><text class="fi" x="12" y="12" dy=".35em">&#xf185;</text></g>
+			<g id="page-export"><text class="fi" x="12" y="12" dy=".35em">&#xf188;</text></g>
+			<g id="page-export-csv"><text class="fi" x="12" y="12" dy=".35em">&#xf185;</text></g>
+			<g id="page-export-doc"><text class="fi" x="12" y="12" dy=".35em">&#xf186;</text></g>
+			<g id="page-export-pdf"><text class="fi" x="12" y="12" dy=".35em">&#xf187;</text></g>
+			<g id="page-add"><text class="fi" x="12" y="12" dy=".35em">&#xf17f;</text></g>
+			<g id="page-remove"><text class="fi" x="12" y="12" dy=".35em">&#xf18c;</text></g>
+			<g id="page-delete"><text class="fi" x="12" y="12" dy=".35em">&#xf182;</text></g>
+			<g id="page-edit"><text class="fi" x="12" y="12" dy=".35em">&#xf184;</text></g>
+			<g id="page-search"><text class="fi" x="12" y="12" dy=".35em">&#xf18d;</text></g>
+			<g id="page-copy"><text class="fi" x="12" y="12" dy=".35em">&#xf180;</text></g>
+			<g id="page-filled"><text class="fi" x="12" y="12" dy=".35em">&#xf189;</text></g>
+			<g id="page-multiple"><text class="fi" x="12" y="12" dy=".35em">&#xf18a;</text></g>
+			<g id="arrow-up"><text class="fi" x="12" y="12" dy=".35em">&#xf10c;</text></g>
+			<g id="arrow-right"><text class="fi" x="12" y="12" dy=".35em">&#xf10b;</text></g>
+			<g id="arrow-down"><text class="fi" x="12" y="12" dy=".35em">&#xf109;</text></g>
+			<g id="arrow-left"><text class="fi" x="12" y="12" dy=".35em">&#xf10a;</text></g>
+			<g id="arrows-out"><text class="fi" x="12" y="12" dy=".35em">&#xf110;</text></g>
+			<g id="arrows-in"><text class="fi" x="12" y="12" dy=".35em">&#xf10f;</text></g>
+			<g id="arrows-expand"><text class="fi" x="12" y="12" dy=".35em">&#xf10e;</text></g>
+			<g id="arrows-compress"><text class="fi" x="12" y="12" dy=".35em">&#xf10d;</text></g>
+			<g id="torso"><text class="fi" x="12" y="12" dy=".35em">&#xf1fe;</text></g>
+			<g id="torso-female"><text class="fi" x="12" y="12" dy=".35em">&#xf1fd;</text></g>
+			<g id="torsos"><text class="fi" x="12" y="12" dy=".35em">&#xf203;</text></g>
+			<g id="torsos-female-male"><text class="fi" x="12" y="12" dy=".35em">&#xf201;</text></g>
+			<g id="torsos-male-female"><text class="fi" x="12" y="12" dy=".35em">&#xf202;</text></g>
+			<g id="torsos-all"><text class="fi" x="12" y="12" dy=".35em">&#xf200;</text></g>
+			<g id="torsos-all-female"><text class="fi" x="12" y="12" dy=".35em">&#xf1ff;</text></g>
+			<g id="torso-business"><text class="fi" x="12" y="12" dy=".35em">&#xf1fc;</text></g>
+			<g id="monitor"><text class="fi" x="12" y="12" dy=".35em">&#xf179;</text></g>
+			<g id="laptop"><text class="fi" x="12" y="12" dy=".35em">&#xf161;</text></g>
+			<g id="tablet-portrait"><text class="fi" x="12" y="12" dy=".35em">&#xf1f4;</text></g>
+			<g id="tablet-landscape"><text class="fi" x="12" y="12" dy=".35em">&#xf1f3;</text></g>
+			<g id="mobile"><text class="fi" x="12" y="12" dy=".35em">&#xf178;</text></g>
+			<g id="mobile-signal"><text class="fi" x="12" y="12" dy=".35em">&#xf177;</text></g>
+			<g id="usb"><text class="fi" x="12" y="12" dy=".35em">&#xf20d;</text></g>
+			<g id="bold"><text class="fi" x="12" y="12" dy=".35em">&#xf11c;</text></g>
+			<g id="italic"><text class="fi" x="12" y="12" dy=".35em">&#xf15f;</text></g>
+			<g id="underline"><text class="fi" x="12" y="12" dy=".35em">&#xf207;</text></g>
+			<g id="strikethrough"><text class="fi" x="12" y="12" dy=".35em">&#xf1f0;</text></g>
+			<g id="text-color"><text class="fi" x="12" y="12" dy=".35em">&#xf1f9;</text></g>
+			<g id="background-color"><text class="fi" x="12" y="12" dy=".35em">&#xf114;</text></g>
+			<g id="superscript"><text class="fi" x="12" y="12" dy=".35em">&#xf1f2;</text></g>
+			<g id="subscript"><text class="fi" x="12" y="12" dy=".35em">&#xf1f1;</text></g>
+			<g id="align-left"><text class="fi" x="12" y="12" dy=".35em">&#xf104;</text></g>
+			<g id="align-center"><text class="fi" x="12" y="12" dy=".35em">&#xf102;</text></g>
+			<g id="align-right"><text class="fi" x="12" y="12" dy=".35em">&#xf105;</text></g>
+			<g id="align-justify"><text class="fi" x="12" y="12" dy=".35em">&#xf103;</text></g>
+			<g id="list-number"><text class="fi" x="12" y="12" dy=".35em">&#xf167;</text></g>
+			<g id="list-bullet"><text class="fi" x="12" y="12" dy=".35em">&#xf166;</text></g>
+			<g id="indent-more"><text class="fi" x="12" y="12" dy=".35em">&#xf15d;</text></g>
+			<g id="indent-less"><text class="fi" x="12" y="12" dy=".35em">&#xf15c;</text></g>
+			<g id="print"><text class="fi" x="12" y="12" dy=".35em">&#xf19f;</text></g>
+			<g id="save"><text class="fi" x="12" y="12" dy=".35em">&#xf1ac;</text></g>
+			<g id="photo"><text class="fi" x="12" y="12" dy=".35em">&#xf195;</text></g>
+			<g id="filter"><text class="fi" x="12" y="12" dy=".35em">&#xf14b;</text></g>
+			<g id="paint-bucket"><text class="fi" x="12" y="12" dy=".35em">&#xf18f;</text></g>
+			<g id="link"><text class="fi" x="12" y="12" dy=".35em">&#xf165;</text></g>
+			<g id="unlink"><text class="fi" x="12" y="12" dy=".35em">&#xf209;</text></g>
+			<g id="quote"><text class="fi" x="12" y="12" dy=".35em">&#xf1a3;</text></g>
+			<g id="play"><text class="fi" x="12" y="12" dy=".35em">&#xf198;</text></g>
+			<g id="stop"><text class="fi" x="12" y="12" dy=".35em">&#xf1ef;</text></g>
+			<g id="pause"><text class="fi" x="12" y="12" dy=".35em">&#xf191;</text></g>
+			<g id="previous"><text class="fi" x="12" y="12" dy=".35em">&#xf19c;</text></g>
+			<g id="rewind"><text class="fi" x="12" y="12" dy=".35em">&#xf1a9;</text></g>
+			<g id="fast-forward"><text class="fi" x="12" y="12" dy=".35em">&#xf148;</text></g>
+			<g id="next"><text class="fi" x="12" y="12" dy=".35em">&#xf17c;</text></g>
+			<g id="record"><text class="fi" x="12" y="12" dy=".35em">&#xf1a4;</text></g>
+			<g id="play-circle"><text class="fi" x="12" y="12" dy=".35em">&#xf196;</text></g>
+			<g id="volume-none"><text class="fi" x="12" y="12" dy=".35em">&#xf20f;</text></g>
+			<g id="volume"><text class="fi" x="12" y="12" dy=".35em">&#xf211;</text></g>
+			<g id="volume-strike"><text class="fi" x="12" y="12" dy=".35em">&#xf210;</text></g>
+			<g id="loop"><text class="fi" x="12" y="12" dy=".35em">&#xf16b;</text></g>
+			<g id="shuffle"><text class="fi" x="12" y="12" dy=".35em">&#xf1b2;</text></g>
+			<g id="eject"><text class="fi" x="12" y="12" dy=".35em">&#xf144;</text></g>
+			<g id="rewind-ten"><text class="fi" x="12" y="12" dy=".35em">&#xf1a8;</text></g>
+			<g id="dollar"><text class="fi" x="12" y="12" dy=".35em">&#xf142;</text></g>
+			<g id="euro"><text class="fi" x="12" y="12" dy=".35em">&#xf146;</text></g>
+			<g id="pound"><text class="fi" x="12" y="12" dy=".35em">&#xf19a;</text></g>
+			<g id="yen"><text class="fi" x="12" y="12" dy=".35em">&#xf218;</text></g>
+			<g id="bitcoin"><text class="fi" x="12" y="12" dy=".35em">&#xf119;</text></g>
+			<g id="bitcoin-circle"><text class="fi" x="12" y="12" dy=".35em">&#xf118;</text></g>
+			<g id="credit-card"><text class="fi" x="12" y="12" dy=".35em">&#xf135;</text></g>
+			<g id="shopping-cart"><text class="fi" x="12" y="12" dy=".35em">&#xf1b1;</text></g>
+			<g id="burst"><text class="fi" x="12" y="12" dy=".35em">&#xf123;</text></g>
+			<g id="burst-new"><text class="fi" x="12" y="12" dy=".35em">&#xf121;</text></g>
+			<g id="burst-sale"><text class="fi" x="12" y="12" dy=".35em">&#xf122;</text></g>
+			<g id="paypal"><text class="fi" x="12" y="12" dy=".35em">&#xf193;</text></g>
+			<g id="price-tag"><text class="fi" x="12" y="12" dy=".35em">&#xf19d;</text></g>
+			<g id="pricetag-multiple"><text class="fi" x="12" y="12" dy=".35em">&#xf19e;</text></g>
+			<g id="shopping-bag"><text class="fi" x="12" y="12" dy=".35em">&#xf1b0;</text></g>
+			<g id="dollar-bill"><text class="fi" x="12" y="12" dy=".35em">&#xf141;</text></g>
+			<g id="wheelchair"><text class="fi" x="12" y="12" dy=".35em">&#xf213;</text></g>
+			<g id="braille"><text class="fi" x="12" y="12" dy=".35em">&#xf120;</text></g>
+			<g id="closed-caption"><text class="fi" x="12" y="12" dy=".35em">&#xf12c;</text></g>
+			<g id="blind"><text class="fi" x="12" y="12" dy=".35em">&#xf11a;</text></g>
+			<g id="asl"><text class="fi" x="12" y="12" dy=".35em">&#xf111;</text></g>
+			<g id="hearing-aid"><text class="fi" x="12" y="12" dy=".35em">&#xf158;</text></g>
+			<g id="guide-dog"><text class="fi" x="12" y="12" dy=".35em">&#xf157;</text></g>
+			<g id="universal-access"><text class="fi" x="12" y="12" dy=".35em">&#xf208;</text></g>
+			<g id="telephone-accessible"><text class="fi" x="12" y="12" dy=".35em">&#xf1f7;</text></g>
+			<g id="elevator"><text class="fi" x="12" y="12" dy=".35em">&#xf145;</text></g>
+			<g id="male"><text class="fi" x="12" y="12" dy=".35em">&#xf170;</text></g>
+			<g id="female"><text class="fi" x="12" y="12" dy=".35em">&#xf14a;</text></g>
+			<g id="male-female"><text class="fi" x="12" y="12" dy=".35em">&#xf16e;</text></g>
+			<g id="male-symbol"><text class="fi" x="12" y="12" dy=".35em">&#xf16f;</text></g>
+			<g id="female-symbol"><text class="fi" x="12" y="12" dy=".35em">&#xf149;</text></g>
+			<g id="social-500px"><text class="fi" x="12" y="12" dy=".35em">&#xf1b4;</text></g>
+			<g id="social-adobe"><text class="fi" x="12" y="12" dy=".35em">&#xf1b5;</text></g>
+			<g id="social-amazon"><text class="fi" x="12" y="12" dy=".35em">&#xf1b6;</text></g>
+			<g id="social-android"><text class="fi" x="12" y="12" dy=".35em">&#xf1b7;</text></g>
+			<g id="social-apple"><text class="fi" x="12" y="12" dy=".35em">&#xf1b8;</text></g>
+			<g id="social-behance"><text class="fi" x="12" y="12" dy=".35em">&#xf1b9;</text></g>
+			<g id="social-bing"><text class="fi" x="12" y="12" dy=".35em">&#xf1ba;</text></g>
+			<g id="social-blogger"><text class="fi" x="12" y="12" dy=".35em">&#xf1bb;</text></g>
+			<g id="social-delicious"><text class="fi" x="12" y="12" dy=".35em">&#xf1bc;</text></g>
+			<g id="social-designer-news"><text class="fi" x="12" y="12" dy=".35em">&#xf1bd;</text></g>
+			<g id="social-deviant-art"><text class="fi" x="12" y="12" dy=".35em">&#xf1be;</text></g>
+			<g id="social-digg"><text class="fi" x="12" y="12" dy=".35em">&#xf1bf;</text></g>
+			<g id="social-dribbble"><text class="fi" x="12" y="12" dy=".35em">&#xf1c0;</text></g>
+			<g id="social-drive"><text class="fi" x="12" y="12" dy=".35em">&#xf1c1;</text></g>
+			<g id="social-dropbox"><text class="fi" x="12" y="12" dy=".35em">&#xf1c2;</text></g>
+			<g id="social-evernote"><text class="fi" x="12" y="12" dy=".35em">&#xf1c3;</text></g>
+			<g id="social-facebook"><text class="fi" x="12" y="12" dy=".35em">&#xf1c4;</text></g>
+			<g id="social-flickr"><text class="fi" x="12" y="12" dy=".35em">&#xf1c5;</text></g>
+			<g id="social-forrst"><text class="fi" x="12" y="12" dy=".35em">&#xf1c6;</text></g>
+			<g id="social-foursquare"><text class="fi" x="12" y="12" dy=".35em">&#xf1c7;</text></g>
+			<g id="social-game-center"><text class="fi" x="12" y="12" dy=".35em">&#xf1c8;</text></g>
+			<g id="social-github"><text class="fi" x="12" y="12" dy=".35em">&#xf1c9;</text></g>
+			<g id="social-google-plus"><text class="fi" x="12" y="12" dy=".35em">&#xf1ca;</text></g>
+			<g id="social-hacker-news"><text class="fi" x="12" y="12" dy=".35em">&#xf1cb;</text></g>
+			<g id="social-hi5"><text class="fi" x="12" y="12" dy=".35em">&#xf1cc;</text></g>
+			<g id="social-instagram"><text class="fi" x="12" y="12" dy=".35em">&#xf1cd;</text></g>
+			<g id="social-joomla"><text class="fi" x="12" y="12" dy=".35em">&#xf1ce;</text></g>
+			<g id="social-lastfm"><text class="fi" x="12" y="12" dy=".35em">&#xf1cf;</text></g>
+			<g id="social-linkedin"><text class="fi" x="12" y="12" dy=".35em">&#xf1d0;</text></g>
+			<g id="social-medium"><text class="fi" x="12" y="12" dy=".35em">&#xf1d1;</text></g>
+			<g id="social-myspace"><text class="fi" x="12" y="12" dy=".35em">&#xf1d2;</text></g>
+			<g id="social-orkut"><text class="fi" x="12" y="12" dy=".35em">&#xf1d3;</text></g>
+			<g id="social-path"><text class="fi" x="12" y="12" dy=".35em">&#xf1d4;</text></g>
+			<g id="social-picasa"><text class="fi" x="12" y="12" dy=".35em">&#xf1d5;</text></g>
+			<g id="social-pinterest"><text class="fi" x="12" y="12" dy=".35em">&#xf1d6;</text></g>
+			<g id="social-rdio"><text class="fi" x="12" y="12" dy=".35em">&#xf1d7;</text></g>
+			<g id="social-reddit"><text class="fi" x="12" y="12" dy=".35em">&#xf1d8;</text></g>
+			<g id="social-skype"><text class="fi" x="12" y="12" dy=".35em">&#xf1da;</text></g>
+			<g id="social-skillshare"><text class="fi" x="12" y="12" dy=".35em">&#xf1d9;</text></g>
+			<g id="social-smashing-mag"><text class="fi" x="12" y="12" dy=".35em">&#xf1db;</text></g>
+			<g id="social-snapchat"><text class="fi" x="12" y="12" dy=".35em">&#xf1dc;</text></g>
+			<g id="social-spotify"><text class="fi" x="12" y="12" dy=".35em">&#xf1dd;</text></g>
+			<g id="social-squidoo"><text class="fi" x="12" y="12" dy=".35em">&#xf1de;</text></g>
+			<g id="social-stack-overflow"><text class="fi" x="12" y="12" dy=".35em">&#xf1df;</text></g>
+			<g id="social-steam"><text class="fi" x="12" y="12" dy=".35em">&#xf1e0;</text></g>
+			<g id="social-stumbleupon"><text class="fi" x="12" y="12" dy=".35em">&#xf1e1;</text></g>
+			<g id="social-treehouse"><text class="fi" x="12" y="12" dy=".35em">&#xf1e2;</text></g>
+			<g id="social-tumblr"><text class="fi" x="12" y="12" dy=".35em">&#xf1e3;</text></g>
+			<g id="social-twitter"><text class="fi" x="12" y="12" dy=".35em">&#xf1e4;</text></g>
+			<g id="social-vimeo"><text class="fi" x="12" y="12" dy=".35em">&#xf1e5;</text></g>
+			<g id="social-windows"><text class="fi" x="12" y="12" dy=".35em">&#xf1e6;</text></g>
+			<g id="social-xbox-20"><text class="fi" x="12" y="12" dy=".35em">&#xf1e7;</text></g>
+			<g id="social-yahoo"><text class="fi" x="12" y="12" dy=".35em">&#xf1e8;</text></g>
+			<g id="social-yelp"><text class="fi" x="12" y="12" dy=".35em">&#xf1e9;</text></g>
+			<g id="social-youtube"><text class="fi" x="12" y="12" dy=".35em">&#xf1ea;</text></g>
+			<g id="social-zerply"><text class="fi" x="12" y="12" dy=".35em">&#xf1eb;</text></g>
+			<g id="social-zurb"><text class="fi" x="12" y="12" dy=".35em">&#xf1ec;</text></g>
+			<g id="compass"><text class="fi" x="12" y="12" dy=".35em">&#xf133;</text></g>
+			<g id="music"><text class="fi" x="12" y="12" dy=".35em">&#xf17b;</text></g>
+			<g id="lightbulb"><text class="fi" x="12" y="12" dy=".35em">&#xf163;</text></g>
+			<g id="battery-full"><text class="fi" x="12" y="12" dy=".35em">&#xf116;</text></g>
+			<g id="battery-half"><text class="fi" x="12" y="12" dy=".35em">&#xf117;</text></g>
+			<g id="battery-empty"><text class="fi" x="12" y="12" dy=".35em">&#xf115;</text></g>
+			<g id="projection-screen"><text class="fi" x="12" y="12" dy=".35em">&#xf1a1;</text></g>
+			<g id="info"><text class="fi" x="12" y="12" dy=".35em">&#xf15e;</text></g>
+			<g id="power"><text class="fi" x="12" y="12" dy=".35em">&#xf19b;</text></g>
+			<g id="asterisk"><text class="fi" x="12" y="12" dy=".35em">&#xf112;</text></g>
+			<g id="at-sign"><text class="fi" x="12" y="12" dy=".35em">&#xf113;</text></g>
+			<g id="key"><text class="fi" x="12" y="12" dy=".35em">&#xf160;</text></g>
+			<g id="ticket"><text class="fi" x="12" y="12" dy=".35em">&#xf1fb;</text></g>
+			<g id="book"><text class="fi" x="12" y="12" dy=".35em">&#xf11e;</text></g>
+			<g id="book-bookmark"><text class="fi" x="12" y="12" dy=".35em">&#xf11d;</text></g>
+			<g id="anchor"><text class="fi" x="12" y="12" dy=".35em">&#xf106;</text></g>
+			<g id="puzzle"><text class="fi" x="12" y="12" dy=".35em">&#xf1a2;</text></g>
+			<g id="foot"><text class="fi" x="12" y="12" dy=".35em">&#xf151;</text></g>
+			<g id="paw"><text class="fi" x="12" y="12" dy=".35em">&#xf192;</text></g>
+			<g id="mountains"><text class="fi" x="12" y="12" dy=".35em">&#xf17a;</text></g>
+			<g id="trees"><text class="fi" x="12" y="12" dy=".35em">&#xf205;</text></g>
+			<g id="sheriff-badge"><text class="fi" x="12" y="12" dy=".35em">&#xf1ae;</text></g>
+			<g id="first-aid"><text class="fi" x="12" y="12" dy=".35em">&#xf14c;</text></g>
+			<g id="trophy"><text class="fi" x="12" y="12" dy=".35em">&#xf206;</text></g>
+			<g id="prohibited"><text class="fi" x="12" y="12" dy=".35em">&#xf1a0;</text></g>
+			<g id="no-dogs"><text class="fi" x="12" y="12" dy=".35em">&#xf17d;</text></g>
+			<g id="no-smoking"><text class="fi" x="12" y="12" dy=".35em">&#xf17e;</text></g>
+			<g id="safety-cone"><text class="fi" x="12" y="12" dy=".35em">&#xf1ab;</text></g>
+			<g id="shield"><text class="fi" x="12" y="12" dy=".35em">&#xf1af;</text></g>
+			<g id="crown"><text class="fi" x="12" y="12" dy=".35em">&#xf137;</text></g>
+			<g id="target"><text class="fi" x="12" y="12" dy=".35em">&#xf1f6;</text></g>
+			<g id="target-two"><text class="fi" x="12" y="12" dy=".35em">&#xf1f5;</text></g>
+			<g id="die-one"><text class="fi" x="12" y="12" dy=".35em">&#xf13c;</text></g>
+			<g id="die-two"><text class="fi" x="12" y="12" dy=".35em">&#xf13f;</text></g>
+			<g id="die-three"><text class="fi" x="12" y="12" dy=".35em">&#xf13e;</text></g>
+			<g id="die-four"><text class="fi" x="12" y="12" dy=".35em">&#xf13b;</text></g>
+			<g id="die-five"><text class="fi" x="12" y="12" dy=".35em">&#xf13a;</text></g>
+			<g id="die-six"><text class="fi" x="12" y="12" dy=".35em">&#xf13d;</text></g>
+			<g id="skull"><text class="fi" x="12" y="12" dy=".35em">&#xf1b3;</text></g>
+			<g id="map"><text class="fi" x="12" y="12" dy=".35em">&#xf171;</text></g>
+			<g id="clipboard"><text class="fi" x="12" y="12" dy=".35em">&#xf12a;</text></g>
+			<g id="clipboard-pencil"><text class="fi" x="12" y="12" dy=".35em">&#xf129;</text></g>
+			<g id="clipboard-notes"><text class="fi" x="12" y="12" dy=".35em">&#xf128;</text></g>
+		</defs>
+	</svg>
+</iron-iconset-svg>
