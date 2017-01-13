@@ -1,6 +1,6 @@
 # openfont-icons
 Polymer iconsets of various open icon fonts, including,
-- [Font Awesome](https://github.com/FortAwesome/Font-Awesome)(=4.6)
+- [Font Awesome](https://github.com/FortAwesome/Font-Awesome)(=4.7.0)
 - [Foundation](https://github.com/zurb/foundation-icons)(=3.0)
 - [Ionicons](https://github.com/driftyco/ionicons)(=2.0.1)
 - [Octicons](https://github.com/primer/octicons)(=3.5.0)
